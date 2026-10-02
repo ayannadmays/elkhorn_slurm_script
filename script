@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#SBATCH --job-name=
+#SBATCH --mail-user=aymays@ucsc.edu
+#SBATCH --mail-type=ALL
+#SBATCH --partition=lab-amaciasmunoz
+#SBATCH --time=1-00:00:00
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=5G
+#SBATCH --qos=pi-amaciasmunoz
+#SBATCH --account=pi-amaciasmunoz
+#SBATCH --output=xxx.out
+
